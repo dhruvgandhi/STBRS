@@ -1,0 +1,31 @@
+.bar
+{
+    color: #ffffff;
+    width:30%;
+    margin: auto;
+    height: 8vh;
+    text-align: center;
+    border-radius: 16px;
+    color:black;
+    border:none;
+    padding: 4px;
+    box-shadow:0px 3px grey;
+}
+.searchbar
+{
+    position: relative;
+    width: 80%;
+    top: 5%;
+    height: 40%;
+    margin: auto;
+    
+}
+.searchbutton
+{
+    width:18%;
+    height:8vh;
+    border-radius: 16px;
+    background:red;
+    border:none;
+    box-shadow:0px 3px grey;   
+}

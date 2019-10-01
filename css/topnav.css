@@ -1,0 +1,72 @@
+body 
+{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background: #FBBCAF;
+    
+}
+.logo{
+    width:2%;
+    height:2%;
+    background-image: url('logo.png');
+}
+.bg
+{
+    background-image: url('bus.jpg');
+}
+.topnav 
+{
+    overflow: hidden;
+    background-color: black;
+    box-shadow: 0px 5px #FD5F3D;
+    /*border-radius: 25px;*/
+    padding: 2px;
+}
+  
+.topnav a 
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover 
+{
+    background-color: #ddd;
+    color: black;
+    border-radius: 25px;
+}
+  
+.topnav a.active 
+{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    box-shadow:0px 2px lightgrey;
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
