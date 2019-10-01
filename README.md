@@ -1,8 +1,7 @@
-# STBRS
-State Transport Bus Reservation System
-
+#STBRS
 This Website is developed by
->Dhruv Gandhi
-Param Joshi
-Jinisha Jain 
-as Web Technology Project for third year Computer Engineering.
+-Dhruv Gandhi
+-Param Joshi
+-Jinisha Jain
+
+for third year Computer Engineering, subject: Web Technologies
